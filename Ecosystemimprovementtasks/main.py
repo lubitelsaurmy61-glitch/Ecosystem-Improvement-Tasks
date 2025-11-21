@@ -1,7 +1,7 @@
 from telebot import types, TeleBot
 from random import randint
 
-bot = TeleBot("8466143052:AAEE8K96y5arHaTjy8AB_Lr-TU-CplO7h4M")
+bot = TeleBot(<token>)
 
 quests = [
     'Вынеси пакет мусора в большую урну',
@@ -46,3 +46,4 @@ def help(message):
 "/help" — Вывод списка команд.''', parse_mode='html')
 
 bot.polling(none_stop=True)
+
